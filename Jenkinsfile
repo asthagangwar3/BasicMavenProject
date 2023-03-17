@@ -1,7 +1,8 @@
 pipeline {
     agent {label'My_Node'}
 
-
+  tools {
+      jdk 'jdk11'}
     stages {
         stage('Build') {
             steps {
