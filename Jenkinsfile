@@ -29,7 +29,7 @@ pipeline {
         stage('SonarQube') {
             steps {
                 withSonarQubeEnv('sonar') {
-                    sh "D:/Softwares_Required/sonar-scanner-4.1.0.1829-windows/bin/sonar-scanner.bat"
+                    bat "D:/Softwares_Required/sonar-scanner-4.1.0.1829-windows/bin/sonar-scanner.bat"
                 }
             }
         }
