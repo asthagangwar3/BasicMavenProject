@@ -9,7 +9,7 @@ pipeline {
                 git 'https://github.com/asthagangwar3/BasicMavenProject.git'
 
                 // Run Maven on a Unix agent.
-                sh "mvn clean install"
+                bat "mvn clean install"
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
