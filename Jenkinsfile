@@ -1,5 +1,5 @@
 pipeline {
-    agent {label'Training_Agent'}
+    agent {label'Window_Agent'}
 
   // tools {
   //     jdk 'jdk11'}
